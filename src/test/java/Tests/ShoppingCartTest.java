@@ -23,7 +23,7 @@ public class ShoppingCartTest extends BaseTest {
     public void pageSetUp() {
         System.out.println("Setting up the page...");
 
-        //inicijalzizujemo
+        // inicijalizujemo
         loginPage = new LoginPage();
         addItem = new AddItem();
         shoppingCartPage = new ShoppingCartPage();
